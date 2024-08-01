@@ -1,0 +1,3661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="ilce_1" model="res.ilce">
+            <field name="name">Adalar</field>
+        </record>
+
+
+        <record id="mahalle_1_1" model="res.mahalle">
+            <field name="name">Burgazada</field>
+            <field name="ilce_id" ref="ilce_1"/>
+        </record>
+        <record id="mahalle_2_1" model="res.mahalle">
+            <field name="name">Heybeliada</field>
+            <field name="ilce_id" ref="ilce_1"/>
+        </record>
+        <record id="mahalle_3_1" model="res.mahalle">
+            <field name="name">Kınalıada</field>
+            <field name="ilce_id" ref="ilce_1"/>
+        </record>
+        <record id="mahalle_4_1" model="res.mahalle">
+            <field name="name">Maden</field>
+            <field name="ilce_id" ref="ilce_1"/>
+        </record>
+        <record id="mahalle_5_1" model="res.mahalle">
+            <field name="name">Nizam</field>
+            <field name="ilce_id" ref="ilce_1"/>
+        </record>
+
+
+
+
+
+        <record id="ilce_2" model="res.ilce">
+            <field name="name">Arnavutköy</field>
+        </record>
+
+
+        <record id="mahalle_1_2" model="res.mahalle">
+            <field name="name">Anadolu</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_2_2" model="res.mahalle">
+            <field name="name">Adnan Menderes</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_3_2" model="res.mahalle">
+            <field name="name">Arnavutköy Merkez</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_4_2" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_5_2" model="res.mahalle">
+            <field name="name">Baklalı</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_6_2" model="res.mahalle">
+            <field name="name">Balaban</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_7_2" model="res.mahalle">
+            <field name="name">Boğazköy İstiklal</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_8_2" model="res.mahalle">
+            <field name="name">Bolluca</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_9_2" model="res.mahalle">
+            <field name="name">Boyalık</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_10_2" model="res.mahalle">
+            <field name="name">Çilingir</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_11_2" model="res.mahalle">
+            <field name="name">Deliklikaya</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_12_2" model="res.mahalle">
+            <field name="name">Dursunköy</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_13_2" model="res.mahalle">
+            <field name="name">Durusu</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_14_2" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_15_2" model="res.mahalle">
+            <field name="name">Hacımaşlı</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_16_2" model="res.mahalle">
+            <field name="name">Hadımköy</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_17_2" model="res.mahalle">
+            <field name="name">Haraççı</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_18_2" model="res.mahalle">
+            <field name="name">Hastane</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_19_2" model="res.mahalle">
+            <field name="name">Hicret</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_20_2" model="res.mahalle">
+            <field name="name">İmrahor</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_21_2" model="res.mahalle">
+            <field name="name">İslambey</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_22_2" model="res.mahalle">
+            <field name="name">Karaburun</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_23_2" model="res.mahalle">
+            <field name="name">Karlıbayır</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_24_2" model="res.mahalle">
+            <field name="name">Mareşal Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_25_2" model="res.mahalle">
+            <field name="name">Mavigöl</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_26_2" model="res.mahalle">
+            <field name="name">Mehmet Akif Ersoy</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_27_2" model="res.mahalle">
+            <field name="name">Mustafa Kemal Paşa</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_28_2" model="res.mahalle">
+            <field name="name">Nenehatun</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_29_2" model="res.mahalle">
+            <field name="name">Ömerli</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_30_2" model="res.mahalle">
+            <field name="name">Sazlıbosna</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_31_2" model="res.mahalle">
+            <field name="name">Taşoluk</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_32_2" model="res.mahalle">
+            <field name="name">Tayakadın</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_33_2" model="res.mahalle">
+            <field name="name">Terkos</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_34_2" model="res.mahalle">
+            <field name="name">Yassıören</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_35_2" model="res.mahalle">
+            <field name="name">Yavuz Selim</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_36_2" model="res.mahalle">
+            <field name="name">Yeniköy</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_37_2" model="res.mahalle">
+            <field name="name">Yeşilbayır</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+        <record id="mahalle_38_2" model="res.mahalle">
+            <field name="name">Yunus Emre</field>
+            <field name="ilce_id" ref="ilce_2"/>
+        </record>
+
+
+
+        <record id="ilce_3" model="res.ilce">
+            <field name="name">Ataşehir</field>
+        </record>
+
+        <record id="mahalle_1_3" model="res.mahalle">
+            <field name="name">Aşık Veysel</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_2_3" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_3_3" model="res.mahalle">
+            <field name="name">Barbaros</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_4_3" model="res.mahalle">
+            <field name="name">Esatpaşa</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_5_3" model="res.mahalle">
+            <field name="name">Ferhatpaşa</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_6_3" model="res.mahalle">
+            <field name="name">Fetih</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_7_3" model="res.mahalle">
+            <field name="name">İçerenköy</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_8_3" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_9_3" model="res.mahalle">
+            <field name="name">Kayışdağı</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_10_3" model="res.mahalle">
+            <field name="name">Küçükbakkalköy</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_11_3" model="res.mahalle">
+            <field name="name">Mevlana</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_12_3" model="res.mahalle">
+            <field name="name">Mimarsinan</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_13_3" model="res.mahalle">
+            <field name="name">Mustafa Kemal</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_14_3" model="res.mahalle">
+            <field name="name">Örnek</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_15_3" model="res.mahalle">
+            <field name="name">Yeni Çamlıca</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_16_3" model="res.mahalle">
+            <field name="name">Yeni Sahra</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+        <record id="mahalle_17_3" model="res.mahalle">
+            <field name="name">Yenisehir</field>
+            <field name="ilce_id" ref="ilce_3"/>
+        </record>
+
+
+
+        <record id="ilce_4" model="res.ilce">
+            <field name="name">Avcılar</field>
+        </record>
+
+        <!-- Avcılar Mahalleleri -->
+        <record id="mahalle_1_4" model="res.mahalle">
+            <field name="name">Avcılar Merkez</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_2_4" model="res.mahalle">
+            <field name="name">Ambarlı</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_3_4" model="res.mahalle">
+            <field name="name">Cihangi</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_4_4" model="res.mahalle">
+            <field name="name">Gümüşpala</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_5_4" model="res.mahalle">
+            <field name="name">Denizköşkler</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_6_4" model="res.mahalle">
+            <field name="name">Üniversite</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_7_4" model="res.mahalle">
+            <field name="name">Mustafa Kemal Paşa</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_8_4" model="res.mahalle">
+            <field name="name">Firuzköy</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_9_4" model="res.mahalle">
+            <field name="name">Tahtakale</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+        <record id="mahalle_10_4" model="res.mahalle">
+            <field name="name">Yeşilkent</field>
+            <field name="ilce_id" ref="ilce_4"/>
+        </record>
+
+
+
+
+
+        <record id="ilce_5" model="res.ilce">
+            <field name="name">Bağcılar</field>
+        </record>
+
+
+        <!-- Bağcılar Mahalleleri -->
+        <record id="mahalle_1_5" model="res.mahalle">
+            <field name="name">Bağlar</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_2_5" model="res.mahalle">
+            <field name="name">Barbaros</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_3_5" model="res.mahalle">
+            <field name="name">Çınar</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_4_5" model="res.mahalle">
+            <field name="name">Demirkapı</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_5_5" model="res.mahalle">
+            <field name="name">15 Temmuz</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_6_5" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_7_5" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_8_5" model="res.mahalle">
+            <field name="name">Göztepe</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_9_5" model="res.mahalle">
+            <field name="name">Güneşli</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_10_5" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_11_5" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+
+        <record id="mahalle_12_5" model="res.mahalle">
+            <field name="name">Kazım Karabekir</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_13_5" model="res.mahalle">
+            <field name="name">Kemalpaşa</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_14_5" model="res.mahalle">
+            <field name="name">Kirazlı</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_15_5" model="res.mahalle">
+            <field name="name">Mahmutbey</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_16_5" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_17_5" model="res.mahalle">
+            <field name="name">Sancaktepe</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_18_5" model="res.mahalle">
+            <field name="name">Yavuz Selim</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_19_5" model="res.mahalle">
+            <field name="name">Yenigün</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_20_5" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_21_5" model="res.mahalle">
+            <field name="name">Yıldıztepe</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+        <record id="mahalle_22_5" model="res.mahalle">
+            <field name="name">100. Yıl</field>
+            <field name="ilce_id" ref="ilce_5"/>
+        </record>
+
+
+
+        <!-- Bahçelievler İlçesi -->
+        <record id="ilce_6" model="res.ilce">
+            <field name="name">Bahçelievler</field>
+        </record>
+
+        <!-- Bahçelievler Mahalleleri -->
+        <record id="mahalle_1_6" model="res.mahalle">
+            <field name="name">Bahçelievler</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_2_6" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_3_6" model="res.mahalle">
+            <field name="name">Çobançeşme</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_4_6" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_5_6" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_6_6" model="res.mahalle">
+            <field name="name">Kocasinan Merkez</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_7_6" model="res.mahalle">
+            <field name="name">Siyavuşpaşa</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_8_6" model="res.mahalle">
+            <field name="name">Soğanlı</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_9_6" model="res.mahalle">
+            <field name="name">Şirinevler</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+        <record id="mahalle_10_6" model="res.mahalle">
+            <field name="name">Zafer</field>
+            <field name="ilce_id" ref="ilce_6"/>
+        </record>
+
+        <!-- Bakırköy İlçesi -->
+        <record id="ilce_7" model="res.ilce">
+            <field name="name">Bakırköy</field>
+        </record>
+        <!-- Bakırköy Neighborhoods -->
+        <record id="mahalle_1_7" model="res.mahalle">
+            <field name="name">Ataköy 1. Kısım</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_2_7" model="res.mahalle">
+            <field name="name">Ataköy 2-5-6. Kısım</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_3_7" model="res.mahalle">
+            <field name="name">Ataköy 3-4-11. Kısım</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_4_7" model="res.mahalle">
+            <field name="name">Ataköy 7-8-9-10. Kısım</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_5_7" model="res.mahalle">
+            <field name="name">Basınköy</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_6_7" model="res.mahalle">
+            <field name="name">Cevizlik</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_7_7" model="res.mahalle">
+            <field name="name">Kartaltepe</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_8_7" model="res.mahalle">
+            <field name="name">Osmaniye</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_9_7" model="res.mahalle">
+            <field name="name">Sakızağacı</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_10_7" model="res.mahalle">
+            <field name="name">Şenlikköy</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_11_7" model="res.mahalle">
+            <field name="name">Yeşilköy</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_12_7" model="res.mahalle">
+            <field name="name">Yeşilyurt</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_13_7" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_14_7" model="res.mahalle">
+            <field name="name">Zeytinlik</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+        <record id="mahalle_15_7" model="res.mahalle">
+            <field name="name">Zuhuratbaba</field>
+            <field name="ilce_id" ref="ilce_7"/>
+        </record>
+
+
+
+        <!-- Başakşehir İlçesi -->
+        <record id="ilce_8" model="res.ilce">
+            <field name="name">Başakşehir</field>
+        </record>
+        <!-- Başakşehir İlçesi (ilce_8) Mahalleleri -->
+        <record id="mahalle_1_8" model="res.mahalle">
+            <field name="name">Altınşehir</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_2_8" model="res.mahalle">
+            <field name="name">Bahçeşehir 1. Kısım</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_3_8" model="res.mahalle">
+            <field name="name">Bahçeşehir 2. Kısım</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_4_8" model="res.mahalle">
+            <field name="name">Başakşehir (1.- 2. Etap)</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_5_8" model="res.mahalle">
+            <field name="name">Başak (4.- 5. Etap)</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_6_8" model="res.mahalle">
+            <field name="name">Güvercintepe</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_7_8" model="res.mahalle">
+            <field name="name">Kayabaşı</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_8_8" model="res.mahalle">
+            <field name="name">Şahintepe</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_9_8" model="res.mahalle">
+            <field name="name">Şamlar</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+        <record id="mahalle_10_8" model="res.mahalle">
+            <field name="name">Ziyagökalp</field>
+            <field name="ilce_id" ref="ilce_8"/>
+        </record>
+
+        <!-- Bayrampaşa İlçesi -->
+        <record id="ilce_9" model="res.ilce">
+            <field name="name">Bayrampaşa</field>
+        </record>
+        <!-- Bayrampaşa İlçesi (ilce_9) Mahalleleri -->
+        <record id="mahalle_1_9" model="res.mahalle">
+            <field name="name">Yenidoğan</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_2_9" model="res.mahalle">
+            <field name="name">Vatan</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_3_9" model="res.mahalle">
+            <field name="name">Orta</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_4_9" model="res.mahalle">
+            <field name="name">Terazidere</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_5_9" model="res.mahalle">
+            <field name="name">Altıntepsi</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_6_9" model="res.mahalle">
+            <field name="name">Muratpaşa</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_7_9" model="res.mahalle">
+            <field name="name">İsmetpaşa</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_8_9" model="res.mahalle">
+            <field name="name">Yıldırım</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_9_9" model="res.mahalle">
+            <field name="name">Kartaltepe</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_10_9" model="res.mahalle">
+            <field name="name">Kocatepe</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+        <record id="mahalle_11_9" model="res.mahalle">
+            <field name="name">Cevatpaşa</field>
+            <field name="ilce_id" ref="ilce_9"/>
+        </record>
+
+
+
+        <!-- Beykoz İlçesi -->
+        <record id="ilce_10" model="res.ilce">
+            <field name="name">Beykoz</field>
+        </record>
+        <record id="mahalle_1_10" model="res.mahalle">
+            <field name="name">Acarlar</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_2_10" model="res.mahalle">
+            <field name="name">Akbaba</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_3_10" model="res.mahalle">
+            <field name="name">Alibahadır</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_4_10" model="res.mahalle">
+            <field name="name">Anadoluhisarı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_5_10" model="res.mahalle">
+            <field name="name">Anadolufeneri</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_6_10" model="res.mahalle">
+            <field name="name">Anadolukavağı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_7_10" model="res.mahalle">
+            <field name="name">Baklacı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_8_10" model="res.mahalle">
+            <field name="name">Beykoz Merkez</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_9_10" model="res.mahalle">
+            <field name="name">Bozhane</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_10_10" model="res.mahalle">
+            <field name="name">Çubuklu</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_11_10" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_12_10" model="res.mahalle">
+            <field name="name">Çamlıbahçe</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_13_10" model="res.mahalle">
+            <field name="name">Çengeldere</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_14_10" model="res.mahalle">
+            <field name="name">Çiftlik</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_15_10" model="res.mahalle">
+            <field name="name">Çiğdem</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_16_10" model="res.mahalle">
+            <field name="name">Dereseki</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_17_10" model="res.mahalle">
+            <field name="name">Elmalı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_18_10" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_19_10" model="res.mahalle">
+            <field name="name">Göksu</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_20_10" model="res.mahalle">
+            <field name="name">Göllü</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_21_10" model="res.mahalle">
+            <field name="name">Görele</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_22_10" model="res.mahalle">
+            <field name="name">Göztepe</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_23_10" model="res.mahalle">
+            <field name="name">Gümüşsuyu</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_24_10" model="res.mahalle">
+            <field name="name">İncirköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_25_10" model="res.mahalle">
+            <field name="name">İshaklı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_26_10" model="res.mahalle">
+            <field name="name">Kanlıca</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_27_10" model="res.mahalle">
+            <field name="name">Kavacık</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_28_10" model="res.mahalle">
+            <field name="name">Kaynarca</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_29_10" model="res.mahalle">
+            <field name="name">Kılıçlı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_30_10" model="res.mahalle">
+            <field name="name">M.Şevketpaşa</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_31_10" model="res.mahalle">
+            <field name="name">Ortaçeşme</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_32_10" model="res.mahalle">
+            <field name="name">Öğümce</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_33_10" model="res.mahalle">
+            <field name="name">Örnekköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_34_10" model="res.mahalle">
+            <field name="name">Paşabahçe</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_35_10" model="res.mahalle">
+            <field name="name">Paşamandıra</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_36_10" model="res.mahalle">
+            <field name="name">Polonezköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_37_10" model="res.mahalle">
+            <field name="name">Poyrazköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_38_10" model="res.mahalle">
+            <field name="name">Riva</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_39_10" model="res.mahalle">
+            <field name="name">Rüzgarlıbahçe</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_40_10" model="res.mahalle">
+            <field name="name">Soğuksu</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_41_10" model="res.mahalle">
+            <field name="name">Tokatköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_42_10" model="res.mahalle">
+            <field name="name">Yalıköy</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_43_10" model="res.mahalle">
+            <field name="name">Yavuzselim</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_44_10" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+        <record id="mahalle_45_10" model="res.mahalle">
+            <field name="name">Zerzevatçı</field>
+            <field name="ilce_id" ref="ilce_10"/>
+        </record>
+
+
+
+        <!-- Beylikdüzü İlçesi -->
+        <record id="ilce_11" model="res.ilce">
+            <field name="name">Beylikdüzü</field>
+        </record>
+        <!-- Beylikdüzü İlçesi -->
+        <record id="mahalle_1_11" model="res.mahalle">
+            <field name="name">Adnan Kahveci</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_2_11" model="res.mahalle">
+            <field name="name">Barış</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_3_11" model="res.mahalle">
+            <field name="name">Büyükşehir</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_4_11" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_5_11" model="res.mahalle">
+            <field name="name">Dereağzı</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_6_11" model="res.mahalle">
+            <field name="name">Gürpınar</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_7_11" model="res.mahalle">
+            <field name="name">Kavaklı</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_8_11" model="res.mahalle">
+            <field name="name">Marmara</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_9_11" model="res.mahalle">
+            <field name="name">Sahil</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+        <record id="mahalle_10_11" model="res.mahalle">
+            <field name="name">Yakuplu</field>
+            <field name="ilce_id" ref="ilce_11"/>
+        </record>
+
+
+
+        <!-- Beyoğlu İlçesi -->
+        <record id="ilce_12" model="res.ilce">
+            <field name="name">Beyoğlu</field>
+        </record>
+        <!-- Beyoğlu Mahalleleri -->
+        <record id="mahalle_1_12" model="res.mahalle">
+            <field name="name">Arapcamii</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_2_12" model="res.mahalle">
+            <field name="name">Asmalı Mescit</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_3_12" model="res.mahalle">
+            <field name="name">Bedrettin</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_4_12" model="res.mahalle">
+            <field name="name">Bereketzade</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_5_12" model="res.mahalle">
+            <field name="name">Bostan</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_6_12" model="res.mahalle">
+            <field name="name">Bülbül</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_7_12" model="res.mahalle">
+            <field name="name">Camii Kebir</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_8_12" model="res.mahalle">
+            <field name="name">Cihangir</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_9_12" model="res.mahalle">
+            <field name="name">Çatmalı Mescit</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_10_12" model="res.mahalle">
+            <field name="name">Çukur</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_11_12" model="res.mahalle">
+            <field name="name">Emek Yemez</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_12_12" model="res.mahalle">
+            <field name="name">Evliya Çelebi</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_13_12" model="res.mahalle">
+            <field name="name">Firuzağa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_14_12" model="res.mahalle">
+            <field name="name">Gümüşsuyu</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_15_12" model="res.mahalle">
+            <field name="name">Hacıahmet</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_16_12" model="res.mahalle">
+            <field name="name">İstiklal</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_17_12" model="res.mahalle">
+            <field name="name">Hacı Mimi</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_18_12" model="res.mahalle">
+            <field name="name">Hüseyin Ağa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_19_12" model="res.mahalle">
+            <field name="name">Kadı Mehmet</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_20_12" model="res.mahalle">
+            <field name="name">Kamerhatun</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_21_12" model="res.mahalle">
+            <field name="name">Kalyoncu Kulluk</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_22_12" model="res.mahalle">
+            <field name="name">Kaptanpaşa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_23_12" model="res.mahalle">
+            <field name="name">K.M. Çelebi</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_24_12" model="res.mahalle">
+            <field name="name">Keçecipiri</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_25_12" model="res.mahalle">
+            <field name="name">Kemankeş</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_26_12" model="res.mahalle">
+            <field name="name">K. Alipaşa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_27_12" model="res.mahalle">
+            <field name="name">Kocatepe</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_28_12" model="res.mahalle">
+            <field name="name">Kulaksız</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_29_12" model="res.mahalle">
+            <field name="name">Kuloğlu</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_30_12" model="res.mahalle">
+            <field name="name">Küçük Piyale</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_31_12" model="res.mahalle">
+            <field name="name">Müeyyetzade</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_32_12" model="res.mahalle">
+            <field name="name">Ömer Avni</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_33_12" model="res.mahalle">
+            <field name="name">Piripaşa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_34_12" model="res.mahalle">
+            <field name="name">Piyale Paşa</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_35_12" model="res.mahalle">
+            <field name="name">Pürtelaş</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_36_12" model="res.mahalle">
+            <field name="name">Sururi</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_37_12" model="res.mahalle">
+            <field name="name">Sütlüce</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_38_12" model="res.mahalle">
+            <field name="name">Şahkulu</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_39_12" model="res.mahalle">
+            <field name="name">Şehit Muhtar</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_40_12" model="res.mahalle">
+            <field name="name">Tom Tom</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_41_12" model="res.mahalle">
+            <field name="name">Yahya Kahya</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_42_12" model="res.mahalle">
+            <field name="name">Yeni Şehir</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_43_12" model="res.mahalle">
+            <field name="name">Halıcıoğlu</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+        <record id="mahalle_44_12" model="res.mahalle">
+            <field name="name">Örnektepe</field>
+            <field name="ilce_id" ref="ilce_12"/>
+        </record>
+
+        <!-- Büyükçekmece İlçesi -->
+        <record id="ilce_13" model="res.ilce">
+            <field name="name">Büyükçekmece</field>
+        </record>
+        <record id="mahalle_1_13" model="res.mahalle">
+            <field name="name">Dizdariye</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_2_13" model="res.mahalle">
+            <field name="name">Atatatürk</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_3_13" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_4_13" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_5_13" model="res.mahalle">
+            <field name="name">19 Mayıs</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_6_13" model="res.mahalle">
+            <field name="name">Alkent 2000</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_7_13" model="res.mahalle">
+            <field name="name">Karaağaç</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_8_13" model="res.mahalle">
+            <field name="name">Çakmaklı</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_9_13" model="res.mahalle">
+            <field name="name">Kumburgaz Merkez</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_10_13" model="res.mahalle">
+            <field name="name">Güzelce</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_11_13" model="res.mahalle">
+            <field name="name">Bahçelievler</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_12_13" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_13_13" model="res.mahalle">
+            <field name="name">Tepecik Ulus</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_14_13" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_15_13" model="res.mahalle">
+            <field name="name">Türkoba</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_16_13" model="res.mahalle">
+            <field name="name">Ahmediye</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_17_13" model="res.mahalle">
+            <field name="name">Mimarsinan Merkez</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_18_13" model="res.mahalle">
+            <field name="name">Batıköy</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_19_13" model="res.mahalle">
+            <field name="name">Muratçeşme</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_20_13" model="res.mahalle">
+            <field name="name">Celaliye</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_21_13" model="res.mahalle">
+            <field name="name">Kamiloba</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_22_13" model="res.mahalle">
+            <field name="name">Ekinoba</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_23_13" model="res.mahalle">
+            <field name="name">Mimaroba</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+        <record id="mahalle_24_13" model="res.mahalle">
+            <field name="name">Sinanoba</field>
+            <field name="ilce_id" ref="ilce_13"/>
+        </record>
+
+        <!-- Çatalca İlçesi -->
+        <record id="ilce_14" model="res.ilce">
+            <field name="name">Çatalca</field>
+        </record>
+        <record id="mahalle_1_14" model="res.mahalle">
+            <field name="name">Akalan</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_2_14" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_3_14" model="res.mahalle">
+            <field name="name">Aydınlar</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_4_14" model="res.mahalle">
+            <field name="name">Bahşayiş</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_5_14" model="res.mahalle">
+            <field name="name">Başak</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_6_14" model="res.mahalle">
+            <field name="name">Belgrat</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_7_14" model="res.mahalle">
+            <field name="name">Celepköy</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_8_14" model="res.mahalle">
+            <field name="name">Çakıl</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_9_14" model="res.mahalle">
+            <field name="name">Çanakça</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_10_14" model="res.mahalle">
+            <field name="name">Çiftlikköy</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_11_14" model="res.mahalle">
+            <field name="name">Dağyenice</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_12_14" model="res.mahalle">
+            <field name="name">Elbasan</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_13_14" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_14_14" model="res.mahalle">
+            <field name="name">Ferhatpaşa</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_15_14" model="res.mahalle">
+            <field name="name">Gökçeali</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_16_14" model="res.mahalle">
+            <field name="name">Gümüşpınar</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_17_14" model="res.mahalle">
+            <field name="name">Hallaçlı</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_18_14" model="res.mahalle">
+            <field name="name">Hisarbeyli</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_19_14" model="res.mahalle">
+            <field name="name">İhsaniye</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_20_14" model="res.mahalle">
+            <field name="name">İnceğiz</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_21_14" model="res.mahalle">
+            <field name="name">İzzettin</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_22_14" model="res.mahalle">
+            <field name="name">Kabakça</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_23_14" model="res.mahalle">
+            <field name="name">Kaleiçi</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_24_14" model="res.mahalle">
+            <field name="name">Kalfa</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_25_14" model="res.mahalle">
+            <field name="name">Karacaköy</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_26_14" model="res.mahalle">
+            <field name="name">Karamandere</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_27_14" model="res.mahalle">
+            <field name="name">Kestanelik</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_28_14" model="res.mahalle">
+            <field name="name">Kızılcaali</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_29_14" model="res.mahalle">
+            <field name="name">Muratbey</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_30_14" model="res.mahalle">
+            <field name="name">Nakış</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_31_14" model="res.mahalle">
+            <field name="name">Oklalı</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_32_14" model="res.mahalle">
+            <field name="name">Ormanlı</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_33_14" model="res.mahalle">
+            <field name="name">Ovayenice</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_34_14" model="res.mahalle">
+            <field name="name">Örencik</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_35_14" model="res.mahalle">
+            <field name="name">Örcünlü</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_36_14" model="res.mahalle">
+            <field name="name">Subaşı</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_37_14" model="res.mahalle">
+            <field name="name">Yalıköy</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_38_14" model="res.mahalle">
+            <field name="name">Yaylacık</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+        <record id="mahalle_39_14" model="res.mahalle">
+            <field name="name">Yazlık</field>
+            <field name="ilce_id" ref="ilce_14"/>
+        </record>
+
+
+        <!-- Çekmeköy İlçesi -->
+        <record id="ilce_15" model="res.ilce">
+            <field name="name">Çekmeköy</field>
+        </record>
+        <record id="mahalle_1_15" model="res.mahalle">
+            <field name="name">Alemdag</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_2_15" model="res.mahalle">
+            <field name="name">Aydinlar</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_3_15" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_4_15" model="res.mahalle">
+            <field name="name">Camlik</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_5_15" model="res.mahalle">
+            <field name="name">Catalmese</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_6_15" model="res.mahalle">
+            <field name="name">Eksigolu</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_7_15" model="res.mahalle">
+            <field name="name">Gungoren</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_8_15" model="res.mahalle">
+            <field name="name">Hamidiye</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_9_15" model="res.mahalle">
+            <field name="name">Huseyinli</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_10_15" model="res.mahalle">
+            <field name="name">Kirazidere</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_11_15" model="res.mahalle">
+            <field name="name">Kocullu</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_12_15" model="res.mahalle">
+            <field name="name">Mehmet Akif</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_13_15" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_14_15" model="res.mahalle">
+            <field name="name">Mimar Sinan</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_15_15" model="res.mahalle">
+            <field name="name">Nisantepe</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_16_15" model="res.mahalle">
+            <field name="name">Omerli</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_17_15" model="res.mahalle">
+            <field name="name">Resadiye</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_18_15" model="res.mahalle">
+            <field name="name">Siranpinar</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_19_15" model="res.mahalle">
+            <field name="name">Sogukpinar</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_20_15" model="res.mahalle">
+            <field name="name">Sultanciftligi</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+        <record id="mahalle_21_15" model="res.mahalle">
+            <field name="name">Tasdelen</field>
+            <field name="ilce_id" ref="ilce_15"/>
+        </record>
+
+
+        <!-- Esenler İlçesi -->
+        <record id="ilce_16" model="res.ilce">
+            <field name="name">Esenler</field>
+        </record>
+        <!-- Esenler Mahalleleri -->
+        <record id="mahalle_1_16" model="res.mahalle">
+            <field name="name">15 Temmuz</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_2_16" model="res.mahalle">
+            <field name="name">Birlik</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_3_16" model="res.mahalle">
+            <field name="name">Çiftehavuzlar</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_4_16" model="res.mahalle">
+            <field name="name">Davutpaşa</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_5_16" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_6_16" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_7_16" model="res.mahalle">
+            <field name="name">Havaalanı</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_8_16" model="res.mahalle">
+            <field name="name">Kazım Karabekir</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_9_16" model="res.mahalle">
+            <field name="name">Kemer</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_10_16" model="res.mahalle">
+            <field name="name">Menderes</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_11_16" model="res.mahalle">
+            <field name="name">Mimar Sinan</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_12_16" model="res.mahalle">
+            <field name="name">Namık Kemal</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_13_16" model="res.mahalle">
+            <field name="name">Nenehatun</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_14_16" model="res.mahalle">
+            <field name="name">Oruçreis</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_15_16" model="res.mahalle">
+            <field name="name">Tuna</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_16_16" model="res.mahalle">
+            <field name="name">Turgutreis</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+        <record id="mahalle_17_16" model="res.mahalle">
+            <field name="name">Yavuz Selim</field>
+            <field name="ilce_id" ref="ilce_16"/>
+        </record>
+
+
+
+        <!-- Esenyurt İlçesi -->
+        <record id="ilce_17" model="res.ilce">
+            <field name="name">Esenyurt</field>
+        </record>
+        <!-- Esenyurt Mahalleleri -->
+        <record id="mahalle_1_17" model="res.mahalle">
+            <field name="name">Akçaburgaz</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_2_17" model="res.mahalle">
+            <field name="name">Akevler</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_3_17" model="res.mahalle">
+            <field name="name">Akşemsettin</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_4_17" model="res.mahalle">
+            <field name="name">Ardıçlı</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_5_17" model="res.mahalle">
+            <field name="name">Aşık Veysel</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_6_17" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_7_17" model="res.mahalle">
+            <field name="name">Bağlarçeşme</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_8_17" model="res.mahalle">
+            <field name="name">Balık Yolu</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_9_17" model="res.mahalle">
+            <field name="name">Barbaros Hayrettin Paşa</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_10_17" model="res.mahalle">
+            <field name="name">Battalgazi</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_11_17" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_12_17" model="res.mahalle">
+            <field name="name">Çınar</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_13_17" model="res.mahalle">
+            <field name="name">Esenkent</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_14_17" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_15_17" model="res.mahalle">
+            <field name="name">Gökevler</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_16_17" model="res.mahalle">
+            <field name="name">Güzelyurt</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_17_17" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_18_17" model="res.mahalle">
+            <field name="name">İncirtepe</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_19_17" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_20_17" model="res.mahalle">
+            <field name="name">İstiklal</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_21_17" model="res.mahalle">
+            <field name="name">Koza</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_22_17" model="res.mahalle">
+            <field name="name">Mehmet Akif Ersoy</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_23_17" model="res.mahalle">
+            <field name="name">Mehterçeşme</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_24_17" model="res.mahalle">
+            <field name="name">Mevlana</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_25_17" model="res.mahalle">
+            <field name="name">Namık Kemal</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_26_17" model="res.mahalle">
+            <field name="name">Necip Fazıl Kısakürek</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_27_17" model="res.mahalle">
+            <field name="name">Orhan Gazi</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_28_17" model="res.mahalle">
+            <field name="name">Osmangazi</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_29_17" model="res.mahalle">
+            <field name="name">Örnek</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_30_17" model="res.mahalle">
+            <field name="name">Pınar</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_31_17" model="res.mahalle">
+        <field name="name">Piri Reis</field>
+        <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_32_17" model="res.mahalle">
+            <field name="name">Saadetdere</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_33_17" model="res.mahalle">
+            <field name="name">Selahaddin Eyyubi</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_34_17" model="res.mahalle">
+            <field name="name">Sultaniye</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_35_17" model="res.mahalle">
+            <field name="name">Süleymaniye</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_36_17" model="res.mahalle">
+            <field name="name">Şehitler</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_37_17" model="res.mahalle">
+            <field name="name">Talatpaşa</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_38_17" model="res.mahalle">
+            <field name="name">Turgut Özal</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_39_17" model="res.mahalle">
+            <field name="name">Üçevler</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_40_17" model="res.mahalle">
+            <field name="name">Yenikent</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_41_17" model="res.mahalle">
+            <field name="name">Yeşilkent</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_42_17" model="res.mahalle">
+            <field name="name">Yunus Emre</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+        <record id="mahalle_43_17" model="res.mahalle">
+            <field name="name">Zafer</field>
+            <field name="ilce_id" ref="ilce_17"/>
+        </record>
+
+
+        <!-- Eyüpsultan İlçesi -->
+        <record id="ilce_18" model="res.ilce">
+            <field name="name">Eyüpsultan</field>
+        </record>
+        <!-- Eyüpsultan Mahalleleri -->
+        <record id="mahalle_1_18" model="res.mahalle">
+            <field name="name">5. Levent</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_2_18" model="res.mahalle">
+            <field name="name">Akşemsettin</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_3_18" model="res.mahalle">
+            <field name="name">Alibeyköy</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_4_18" model="res.mahalle">
+            <field name="name">Çırçır</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_5_18" model="res.mahalle">
+            <field name="name">Defterdar</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_6_18" model="res.mahalle">
+            <field name="name">Düğmeciler</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_7_18" model="res.mahalle">
+            <field name="name">Emniyettepe</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_8_18" model="res.mahalle">
+            <field name="name">Esentepe</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_9_18" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_10_18" model="res.mahalle">
+            <field name="name">Göktürk</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_11_18" model="res.mahalle">
+            <field name="name">Güzeltepe</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_12_18" model="res.mahalle">
+            <field name="name">İslambey</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_13_18" model="res.mahalle">
+            <field name="name">Karadolap</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_14_18" model="res.mahalle">
+            <field name="name">Mimar Sinan</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_15_18" model="res.mahalle">
+            <field name="name">Mithatpaşa</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_16_18" model="res.mahalle">
+            <field name="name">Nişanca</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_17_18" model="res.mahalle">
+            <field name="name">Rami Cuma</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_18_18" model="res.mahalle">
+            <field name="name">Rami Yeni</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_19_18" model="res.mahalle">
+            <field name="name">Sakarya</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_20_18" model="res.mahalle">
+            <field name="name">Silahtarağa</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_21_18" model="res.mahalle">
+            <field name="name">Topçular</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+        <record id="mahalle_22_18" model="res.mahalle">
+            <field name="name">Yeşilpınar</field>
+            <field name="ilce_id" ref="ilce_18"/>
+        </record>
+
+        <!-- Fatih İlçesi -->
+        <record id="ilce_19" model="res.ilce">
+            <field name="name">Fatih</field>
+        </record>
+        <!-- Fatih Mahalleleri -->
+        <record id="mahalle_1_19" model="res.mahalle">
+            <field name="name">Aksaray</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_2_19" model="res.mahalle">
+            <field name="name">Akşemsettin</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_3_19" model="res.mahalle">
+            <field name="name">Alemdar</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_4_19" model="res.mahalle">
+            <field name="name">Ali Kuşçu</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_5_19" model="res.mahalle">
+            <field name="name">Atikali</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_6_19" model="res.mahalle">
+            <field name="name">Ayvansaray</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_7_19" model="res.mahalle">
+            <field name="name">Balabanağa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_8_19" model="res.mahalle">
+            <field name="name">Balat</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_9_19" model="res.mahalle">
+            <field name="name">Beyazıt</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_10_19" model="res.mahalle">
+            <field name="name">Binbirdirek</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_11_19" model="res.mahalle">
+            <field name="name">Cankurtaran</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_12_19" model="res.mahalle">
+            <field name="name">Cerrahpaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_13_19" model="res.mahalle">
+            <field name="name">Cibali</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_14_19" model="res.mahalle">
+            <field name="name">Demirtaş</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_15_19" model="res.mahalle">
+            <field name="name">Derviş Ali</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_16_19" model="res.mahalle">
+            <field name="name">Eminsinan</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_17_19" model="res.mahalle">
+            <field name="name">Hacıkadın</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_18_19" model="res.mahalle">
+            <field name="name">Hasekisultan</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_19_19" model="res.mahalle">
+            <field name="name">Hırkaişerif</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_20_19" model="res.mahalle">
+            <field name="name">Hobyar</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_21_19" model="res.mahalle">
+            <field name="name">Hoca Giyasettin</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_22_19" model="res.mahalle">
+            <field name="name">Hocapaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_23_19" model="res.mahalle">
+            <field name="name">İskenderpaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_24_19" model="res.mahalle">
+            <field name="name">Kalenderhane</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_25_19" model="res.mahalle">
+            <field name="name">Karagümrük</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_26_19" model="res.mahalle">
+            <field name="name">Katip Kasım</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_27_19" model="res.mahalle">
+            <field name="name">Kemalpaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_28_19" model="res.mahalle">
+            <field name="name">Kocamustafapaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_29_19" model="res.mahalle">
+            <field name="name">Küçükayasofya</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_30_19" model="res.mahalle">
+            <field name="name">Mercan</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_31_19" model="res.mahalle">
+            <field name="name">Mesihpaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_32_19" model="res.mahalle">
+            <field name="name">Mevlanakapı</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_33_19" model="res.mahalle">
+            <field name="name">Mimar Hayrettin</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_34_19" model="res.mahalle">
+            <field name="name">Mimar Kemalettin</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_35_19" model="res.mahalle">
+            <field name="name">Mollafenari</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_36_19" model="res.mahalle">
+            <field name="name">Mollagürani</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_37_19" model="res.mahalle">
+            <field name="name">Mollahüsrev</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_38_19" model="res.mahalle">
+            <field name="name">Muhsinehatun</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_39_19" model="res.mahalle">
+            <field name="name">Nişanca</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_40_19" model="res.mahalle">
+            <field name="name">Rüstempaşa</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_41_19" model="res.mahalle">
+            <field name="name">Saraçishak</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_42_19" model="res.mahalle">
+            <field name="name">Sarıdemir</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_43_19" model="res.mahalle">
+            <field name="name">Seyyid Ömer</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_44_19" model="res.mahalle">
+            <field name="name">Silivrikapı</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_45_19" model="res.mahalle">
+            <field name="name">Sultanahmet</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_46_19" model="res.mahalle">
+            <field name="name">Sururi</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_47_19" model="res.mahalle">
+            <field name="name">Süleymaniye</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_48_19" model="res.mahalle">
+            <field name="name">Sümbülefendi</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_49_19" model="res.mahalle">
+            <field name="name">Şehremini</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_50_19" model="res.mahalle">
+            <field name="name">Şehsuvarbey</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_51_19" model="res.mahalle">
+            <field name="name">Tahtakale</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_52_19" model="res.mahalle">
+            <field name="name">Tayahatun</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_53_19" model="res.mahalle">
+            <field name="name">Topkapı</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_54_19" model="res.mahalle">
+            <field name="name">Yavuzsinan</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_55_19" model="res.mahalle">
+            <field name="name">Yavuz Sultan Selim</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_56_19" model="res.mahalle">
+            <field name="name">Yedikule</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+        <record id="mahalle_57_19" model="res.mahalle">
+            <field name="name">Zeyrek</field>
+            <field name="ilce_id" ref="ilce_19"/>
+        </record>
+
+
+
+        <!-- GOP İlçesi -->
+        <record id="ilce_20" model="res.ilce">
+            <field name="name">Gazi Osman Paşa</field>
+        </record>
+        <!-- GOP Mahalleleri -->
+        <record id="mahalle_1_20" model="res.mahalle">
+            <field name="name">Bağlarbaşı</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_2_20" model="res.mahalle">
+            <field name="name">Barbaros Hayrettin Paşa</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_3_20" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_4_20" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_5_20" model="res.mahalle">
+            <field name="name">Karadeniz</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_6_20" model="res.mahalle">
+            <field name="name">Karayolları</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_7_20" model="res.mahalle">
+            <field name="name">Karlıtepe</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_8_20" model="res.mahalle">
+            <field name="name">Kâzım Karabekir</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_9_20" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_10_20" model="res.mahalle">
+            <field name="name">Mevlana</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_11_20" model="res.mahalle">
+            <field name="name">Pazariçi</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_12_20" model="res.mahalle">
+            <field name="name">Sarıgöl</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_13_20" model="res.mahalle">
+            <field name="name">Şemsi Paşa</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_14_20" model="res.mahalle">
+            <field name="name">Yenidoğan</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_15_20" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+        <record id="mahalle_16_20" model="res.mahalle">
+            <field name="name">Yıldız Tabya</field>
+            <field name="ilce_id" ref="ilce_20"/>
+        </record>
+
+        <!-- Güngöre İlçesi -->
+        <record id="ilce_21" model="res.ilce">
+            <field name="name">Güngören</field>
+        </record>
+        <!-- Güngören Mahalleleri -->
+        <record id="mahalle_1_21" model="res.mahalle">
+            <field name="name">Akıncılar</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_2_21" model="res.mahalle">
+            <field name="name">Abdurrahman Nafiz Gürman</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_3_21" model="res.mahalle">
+            <field name="name">Gençosman</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_4_21" model="res.mahalle">
+            <field name="name">Güneştepe</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_5_21" model="res.mahalle">
+            <field name="name">Güven</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_6_21" model="res.mahalle">
+            <field name="name">Haznedar</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_7_21" model="res.mahalle">
+            <field name="name">Mareşal Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_8_21" model="res.mahalle">
+            <field name="name">Mehmet Nezih Özmen</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_9_21" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_10_21" model="res.mahalle">
+            <field name="name">Sanayi</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <record id="mahalle_11_21" model="res.mahalle">
+            <field name="name">Tozkoparan</field>
+            <field name="ilce_id" ref="ilce_21"/>
+        </record>
+        <!-- Kadıköy İlçesi -->
+        <record id="ilce_22" model="res.ilce">
+            <field name="name">Kadıköy</field>
+        </record>
+        <!-- Kadıköy Mahalleleri -->
+        <record id="mahalle_1_22" model="res.mahalle">
+            <field name="name">19 Mayıs</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_2_22" model="res.mahalle">
+            <field name="name">Acıbadem</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_3_22" model="res.mahalle">
+            <field name="name">Bostancı</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_4_22" model="res.mahalle">
+            <field name="name">Caddebostan</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_5_22" model="res.mahalle">
+            <field name="name">Caferağa</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_6_22" model="res.mahalle">
+            <field name="name">Dumlupınar</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_7_22" model="res.mahalle">
+            <field name="name">Eğitim</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_8_22" model="res.mahalle">
+            <field name="name">Erenköy</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_9_22" model="res.mahalle">
+            <field name="name">Fenerbahçe</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_10_22" model="res.mahalle">
+            <field name="name">Feneryolu</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_11_22" model="res.mahalle">
+            <field name="name">Fikirtepe</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_12_22" model="res.mahalle">
+            <field name="name">Göztepe</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_13_22" model="res.mahalle">
+            <field name="name">Hasanpaşa</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_14_22" model="res.mahalle">
+            <field name="name">Koşuyolu</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_15_22" model="res.mahalle">
+            <field name="name">Kozyatağı</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_16_22" model="res.mahalle">
+            <field name="name">Merdivenköy</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_17_22" model="res.mahalle">
+            <field name="name">Osmanaga</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_18_22" model="res.mahalle">
+            <field name="name">Rasimpaşa</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_19_22" model="res.mahalle">
+            <field name="name">Sahrayıcedid</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_20_22" model="res.mahalle">
+            <field name="name">Suadiye</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+        <record id="mahalle_21_22" model="res.mahalle">
+            <field name="name">Zühtüpaşa</field>
+            <field name="ilce_id" ref="ilce_22"/>
+        </record>
+
+
+        <!-- Kağıthane İlçesi -->
+        <record id="ilce_23" model="res.ilce">
+            <field name="name">Kağıthane</field>
+        </record>
+        <!-- Kadıköy Mahalleleri -->
+        <record id="mahalle_1_23" model="res.mahalle">
+            <field name="name">Çağlayan</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_2_23" model="res.mahalle">
+            <field name="name">Çeliktepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_3_23" model="res.mahalle">
+            <field name="name">Gültepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_4_23" model="res.mahalle">
+            <field name="name">Emniyet Evleri</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_5_23" model="res.mahalle">
+            <field name="name">Gürsel</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_6_23" model="res.mahalle">
+            <field name="name">Hamidiye</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_7_23" model="res.mahalle">
+            <field name="name">Harmantepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_8_23" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_9_23" model="res.mahalle">
+            <field name="name">Mehmet Akif Ersoy</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_10_23" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_11_23" model="res.mahalle">
+            <field name="name">Nurtepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_12_23" model="res.mahalle">
+            <field name="name">Ortabayır</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_13_23" model="res.mahalle">
+            <field name="name">Sultan Selim</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_14_23" model="res.mahalle">
+            <field name="name">Seyrantepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_15_23" model="res.mahalle">
+            <field name="name">Şirintepe</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_16_23" model="res.mahalle">
+            <field name="name">Talatpaşa</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_17_23" model="res.mahalle">
+            <field name="name">Telsizler</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_18_23" model="res.mahalle">
+            <field name="name">Yahya Kemal</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <record id="mahalle_19_23" model="res.mahalle">
+            <field name="name">Yeşilce</field>
+            <field name="ilce_id" ref="ilce_23"/>
+        </record>
+        <!-- Kartal İlçesi -->
+        <record id="ilce_24" model="res.ilce">
+            <field name="name">Kartal</field>
+        </record>
+        <!-- Kartal Mahalleleri -->
+        <record id="mahalle_1_24" model="res.mahalle">
+            <field name="name">Atalar</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_2_24" model="res.mahalle">
+            <field name="name">Cevizli</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_3_24" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_4_24" model="res.mahalle">
+            <field name="name">Çavuşoğlu</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_5_24" model="res.mahalle">
+            <field name="name">Esentepe</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_6_24" model="res.mahalle">
+            <field name="name">Gümüşpınar</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_7_24" model="res.mahalle">
+            <field name="name">Hürriyet</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_8_24" model="res.mahalle">
+            <field name="name">Karlıktepe</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_9_24" model="res.mahalle">
+            <field name="name">Kordonboyu</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_10_24" model="res.mahalle">
+            <field name="name">Orhantepe</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_11_24" model="res.mahalle">
+            <field name="name">Orta Mahalle</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_12_24" model="res.mahalle">
+            <field name="name">Petrol-İş</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_13_24" model="res.mahalle">
+            <field name="name">Soğanlık</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_14_24" model="res.mahalle">
+            <field name="name">Topselvi</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_15_24" model="res.mahalle">
+            <field name="name">Uğur Mumcu</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_16_24" model="res.mahalle">
+            <field name="name">Yakacık Çarşı</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_17_24" model="res.mahalle">
+            <field name="name">Yakacık Yeni</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_18_24" model="res.mahalle">
+            <field name="name">Yalı</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_19_24" model="res.mahalle">
+            <field name="name">Yukarı Mahalle</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+        <record id="mahalle_20_24" model="res.mahalle">
+            <field name="name">Yunus</field>
+            <field name="ilce_id" ref="ilce_24"/>
+        </record>
+
+
+        <!-- Küçükçekmece İlçesi -->
+        <record id="ilce_25" model="res.ilce">
+            <field name="name">Küçükçekmece</field>
+        </record>
+        <!-- Küçükçekmece Mahalleleri -->
+        <record id="mahalle_1_25" model="res.mahalle">
+            <field name="name">Atakent</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_2_25" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_3_25" model="res.mahalle">
+            <field name="name">Beşyol</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_4_25" model="res.mahalle">
+            <field name="name">Cennet</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_5_25" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_6_25" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_7_25" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_8_25" model="res.mahalle">
+            <field name="name">Gültepe</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_9_25" model="res.mahalle">
+            <field name="name">Halkalı</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_10_25" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_11_25" model="res.mahalle">
+            <field name="name">İstasyon</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_12_25" model="res.mahalle">
+            <field name="name">Kanarya</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_13_25" model="res.mahalle">
+            <field name="name">Kartaltepe</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_14_25" model="res.mahalle">
+            <field name="name">Kemalpaşa</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_15_25" model="res.mahalle">
+            <field name="name">Mehmet Akif</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_16_25" model="res.mahalle">
+            <field name="name">Söğütlüçeşme</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_17_25" model="res.mahalle">
+            <field name="name">Sultanmurat</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_18_25" model="res.mahalle">
+            <field name="name">Tevfikbey</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_19_25" model="res.mahalle">
+            <field name="name">Yarımburgaz</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_20_25" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+        <record id="mahalle_21_25" model="res.mahalle">
+            <field name="name">Yeşilova</field>
+            <field name="ilce_id" ref="ilce_25"/>
+        </record>
+
+
+        <!-- Maltepe İlçesi -->
+        <record id="ilce_26" model="res.ilce">
+            <field name="name">Maltepe</field>
+        </record>
+        <!-- Maltepe Mahalleleri -->
+        <record id="mahalle_1_26" model="res.mahalle">
+            <field name="name">Altayçeşme</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_2_26" model="res.mahalle">
+            <field name="name">Altıntepe</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_3_26" model="res.mahalle">
+            <field name="name">Aydınevler</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_4_26" model="res.mahalle">
+            <field name="name">Bağlarbaşı</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_5_26" model="res.mahalle">
+            <field name="name">Başıbüyük</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_6_26" model="res.mahalle">
+            <field name="name">Büyükbakkalköy</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_7_26" model="res.mahalle">
+            <field name="name">Cevizli</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_8_26" model="res.mahalle">
+            <field name="name">Çınar</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_9_26" model="res.mahalle">
+            <field name="name">Esenkent</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_10_26" model="res.mahalle">
+            <field name="name">Feyzullah</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_11_26" model="res.mahalle">
+            <field name="name">Fındıklı</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_12_26" model="res.mahalle">
+            <field name="name">Girne</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_13_26" model="res.mahalle">
+            <field name="name">Gülensu</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_14_26" model="res.mahalle">
+            <field name="name">Gülsuyu</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_15_26" model="res.mahalle">
+            <field name="name">İdealtepe</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_16_26" model="res.mahalle">
+            <field name="name">Küçükyalı</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_17_26" model="res.mahalle">
+            <field name="name">Yalı</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+        <record id="mahalle_18_26" model="res.mahalle">
+            <field name="name">Zümrütevler</field>
+            <field name="ilce_id" ref="ilce_26"/>
+        </record>
+
+
+
+        <!-- Pendik İlçesi -->
+        <record id="ilce_27" model="res.ilce">
+            <field name="name">Pendik</field>
+        </record>
+        <!-- Pendik Mahalleleri -->
+        <record id="mahalle_1_27" model="res.mahalle">
+            <field name="name">Ahmet Yesevi</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_2_27" model="res.mahalle">
+            <field name="name">Bahçelievler</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_3_27" model="res.mahalle">
+            <field name="name">Batı</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_4_27" model="res.mahalle">
+            <field name="name">Çamçeşme</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_5_27" model="res.mahalle">
+            <field name="name">Çamlık</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_6_27" model="res.mahalle">
+            <field name="name">Çınardere</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_7_27" model="res.mahalle">
+            <field name="name">Doğu</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_8_27" model="res.mahalle">
+            <field name="name">Dumlupınar</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_9_27" model="res.mahalle">
+            <field name="name">Ertuğrulgazi</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_10_27" model="res.mahalle">
+            <field name="name">Esenler</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_11_27" model="res.mahalle">
+            <field name="name">Esenyalı</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_12_27" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_13_27" model="res.mahalle">
+            <field name="name">Fevzi Çakmak</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_14_27" model="res.mahalle">
+            <field name="name">Güllübağlar</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_15_27" model="res.mahalle">
+            <field name="name">Güzelyalı</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_16_27" model="res.mahalle">
+            <field name="name">Harmandere</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_17_27" model="res.mahalle">
+            <field name="name">Kavakpınar</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_18_27" model="res.mahalle">
+            <field name="name">Kaynarca</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_19_27" model="res.mahalle">
+            <field name="name">Kurtköy</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_20_27" model="res.mahalle">
+            <field name="name">Orhangazi</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_21_27" model="res.mahalle">
+            <field name="name">Orta</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_22_27" model="res.mahalle">
+            <field name="name">Ramazanoğlu</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_23_27" model="res.mahalle">
+            <field name="name">Sanayi</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_24_27" model="res.mahalle">
+            <field name="name">Sapanbağları</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_25_27" model="res.mahalle">
+            <field name="name">Sülüntepe</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_26_27" model="res.mahalle">
+            <field name="name">Şeyhli</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_27_27" model="res.mahalle">
+            <field name="name">Velibaba</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_28_27" model="res.mahalle">
+            <field name="name">Yayalar</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_29_27" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_30_27" model="res.mahalle">
+            <field name="name">Yenişehir</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+        <record id="mahalle_31_27" model="res.mahalle">
+            <field name="name">Yeşilbağlar</field>
+            <field name="ilce_id" ref="ilce_27"/>
+        </record>
+
+
+        <!-- Sancaktepe İlçesi -->
+        <record id="ilce_28" model="res.ilce">
+            <field name="name">Sancaktepe</field>
+        </record>
+        <!-- Sancaktepe Mahalleleri -->
+        <record id="mahalle_1_28" model="res.mahalle">
+            <field name="name">Abdurrahmangazi</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_2_28" model="res.mahalle">
+            <field name="name">Akpınar</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_3_28" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_4_28" model="res.mahalle">
+            <field name="name">Emek</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_5_28" model="res.mahalle">
+            <field name="name">Eyüp Sultan</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_6_28" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_7_28" model="res.mahalle">
+            <field name="name">Hilal</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_8_28" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_9_28" model="res.mahalle">
+            <field name="name">Kemal Türkler</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_10_28" model="res.mahalle">
+            <field name="name">Meclis</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_11_28" model="res.mahalle">
+            <field name="name">Merve</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_12_28" model="res.mahalle">
+            <field name="name">Mevlana</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_13_28" model="res.mahalle">
+            <field name="name">Osmangazi</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_14_28" model="res.mahalle">
+            <field name="name">Safa</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_15_28" model="res.mahalle">
+            <field name="name">Sarıgazi</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_16_28" model="res.mahalle">
+            <field name="name">Veysel Karani</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_17_28" model="res.mahalle">
+            <field name="name">Yenidoğan</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+        <record id="mahalle_18_28" model="res.mahalle">
+            <field name="name">Yunus Emre</field>
+            <field name="ilce_id" ref="ilce_28"/>
+        </record>
+
+
+        <!-- Sarıyer İlçesi -->
+        <record id="ilce_29" model="res.ilce">
+            <field name="name">Sarıyer</field>
+        </record>
+        <!-- Sarıyer Mahalleleri -->
+        <record id="mahalle_1_29" model="res.mahalle">
+            <field name="name">Ayazağa</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_2_29" model="res.mahalle">
+            <field name="name">Baltalimanı</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_3_29" model="res.mahalle">
+            <field name="name">Bahçeköy Kemer</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_4_29" model="res.mahalle">
+            <field name="name">Bahçeköy</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_5_29" model="res.mahalle">
+            <field name="name">Bahçeköy Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_6_29" model="res.mahalle">
+            <field name="name">Büyükdere</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_7_29" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_8_29" model="res.mahalle">
+            <field name="name">Çayırbaşı</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_9_29" model="res.mahalle">
+            <field name="name">Darıuşşafaka</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_10_29" model="res.mahalle">
+            <field name="name">Demirciköy</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_11_29" model="res.mahalle">
+            <field name="name">Derbent (Çamlıtepe)</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_12_29" model="res.mahalle">
+            <field name="name">Emirgân</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_13_29" model="res.mahalle">
+            <field name="name">Fatih Sultan Mehmet</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_14_29" model="res.mahalle">
+            <field name="name">Ferahevler</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_15_29" model="res.mahalle">
+            <field name="name">Garipçe</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_16_29" model="res.mahalle">
+            <field name="name">İstinye</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_17_29" model="res.mahalle">
+            <field name="name">Kâzım Karabekir</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_18_29" model="res.mahalle">
+            <field name="name">Kireçburnu</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_19_29" model="res.mahalle">
+            <field name="name">Kocataş</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_20_29" model="res.mahalle">
+            <field name="name">Kumköy (Kilyos)</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_21_29" model="res.mahalle">
+            <field name="name">Maden</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_22_29" model="res.mahalle">
+            <field name="name">Pınar</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_23_29" model="res.mahalle">
+            <field name="name">Poligon</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_24_29" model="res.mahalle">
+            <field name="name">PTT Evleri</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_25_29" model="res.mahalle">
+            <field name="name">Reşitpaşa</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_26_29" model="res.mahalle">
+            <field name="name">Rumelihisarı</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_27_29" model="res.mahalle">
+            <field name="name">Rumelifeneri</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_28_29" model="res.mahalle">
+            <field name="name">Rumelikavağı</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_29_29" model="res.mahalle">
+            <field name="name">Maslak</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_30_29" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_31_29" model="res.mahalle">
+            <field name="name">Tarabya</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_32_29" model="res.mahalle">
+            <field name="name">Uskumruköy</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_33_29" model="res.mahalle">
+            <field name="name">Yeniköy</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_34_29" model="res.mahalle">
+            <field name="name">Yenimahalle</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+        <record id="mahalle_35_29" model="res.mahalle">
+            <field name="name">Zekeriyaköy</field>
+            <field name="ilce_id" ref="ilce_29"/>
+        </record>
+
+
+        <!-- Silivri İlçesi -->
+        <record id="ilce_30" model="res.ilce">
+            <field name="name">Silivri</field>
+        </record>
+        <!-- Silivri Mahalleleri -->
+        <record id="mahalle_1_30" model="res.mahalle">
+            <field name="name">Alibey</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_2_30" model="res.mahalle">
+            <field name="name">Alipaşa</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_3_30" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_4_30" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_5_30" model="res.mahalle">
+            <field name="name">Gazitepe</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_6_30" model="res.mahalle">
+            <field name="name">Küçükkılıçlı</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_7_30" model="res.mahalle">
+            <field name="name">Mimarsinan</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_8_30" model="res.mahalle">
+            <field name="name">Piripaşa</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_9_30" model="res.mahalle">
+            <field name="name">Semizkumlar</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+        <record id="mahalle_10_30" model="res.mahalle">
+            <field name="name">Yeni</field>
+            <field name="ilce_id" ref="ilce_30"/>
+        </record>
+
+        <!-- Sultanbeyli İlçesi -->
+        <record id="ilce_31" model="res.ilce">
+            <field name="name">Sultanbeyli</field>
+        </record>
+        <!-- Sultanbeyli Mahalleleri -->
+        <record id="mahalle_1_31" model="res.mahalle">
+            <field name="name">Abdurrahmangazi</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_2_31" model="res.mahalle">
+            <field name="name">Adil</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_3_31" model="res.mahalle">
+            <field name="name">Ahmet Yesevi</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_4_31" model="res.mahalle">
+            <field name="name">Akşemsettin</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_5_31" model="res.mahalle">
+            <field name="name">Battalgazi</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_6_31" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_7_31" model="res.mahalle">
+            <field name="name">Hamidiye</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_8_31" model="res.mahalle">
+            <field name="name">Hasanpaşa</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_9_31" model="res.mahalle">
+            <field name="name">Mecidiye</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_10_31" model="res.mahalle">
+            <field name="name">Mehmet Akif</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_11_31" model="res.mahalle">
+            <field name="name">Mimarsinan</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_12_31" model="res.mahalle">
+            <field name="name">Necip Fazıl</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_13_31" model="res.mahalle">
+            <field name="name">Orhangazi</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_14_31" model="res.mahalle">
+            <field name="name">Turgutreis</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+        <record id="mahalle_15_31" model="res.mahalle">
+            <field name="name">Yavuz Selim</field>
+            <field name="ilce_id" ref="ilce_31"/>
+        </record>
+
+
+        <!-- Sultangazi İlçesi -->
+        <record id="ilce_32" model="res.ilce">
+            <field name="name">Sultangazi</field>
+        </record>
+        <!-- Sultangazi Mahalleleri -->
+        <record id="mahalle_1_32" model="res.mahalle">
+            <field name="name">50. Yıl</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_2_32" model="res.mahalle">
+            <field name="name">75. Yıl</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_3_32" model="res.mahalle">
+            <field name="name">Cebeci</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_4_32" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_5_32" model="res.mahalle">
+            <field name="name">Esentepe</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_6_32" model="res.mahalle">
+            <field name="name">Eski Habibler</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_7_32" model="res.mahalle">
+            <field name="name">Gazi</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_8_32" model="res.mahalle">
+            <field name="name">Habibler</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_9_32" model="res.mahalle">
+            <field name="name">İsmetpaşa</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_10_32" model="res.mahalle">
+            <field name="name">Malkoçoğlu</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_11_32" model="res.mahalle">
+            <field name="name">Sultançiftliği</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_12_32" model="res.mahalle">
+            <field name="name">Uğur Mumcu</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_13_32" model="res.mahalle">
+            <field name="name">Yayla</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_14_32" model="res.mahalle">
+            <field name="name">Yunusemre</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+        <record id="mahalle_15_32" model="res.mahalle">
+            <field name="name">Zübeydehanım</field>
+            <field name="ilce_id" ref="ilce_32"/>
+        </record>
+
+
+        <!-- Şile İlçesi -->
+        <record id="ilce_33" model="res.ilce">
+            <field name="name">Şile</field>
+        </record>
+        <!-- Şile Mahalleleri -->
+        <record id="mahalle_1_33" model="res.mahalle">
+            <field name="name">Ağva</field>
+            <field name="ilce_id" ref="ilce_33"/>
+        </record>
+        <record id="mahalle_2_33" model="res.mahalle">
+            <field name="name">Balibey</field>
+            <field name="ilce_id" ref="ilce_33"/>
+        </record>
+        <record id="mahalle_3_33" model="res.mahalle">
+            <field name="name">Çavuş</field>
+            <field name="ilce_id" ref="ilce_33"/>
+        </record>
+        <record id="mahalle_4_33" model="res.mahalle">
+            <field name="name">Hacıkasım</field>
+            <field name="ilce_id" ref="ilce_33"/>
+        </record>
+        <record id="mahalle_5_33" model="res.mahalle">
+            <field name="name">Kumbaba</field>
+            <field name="ilce_id" ref="ilce_33"/>
+        </record>
+
+
+        <!-- Şişli İlçesi -->
+        <record id="ilce_34" model="res.ilce">
+            <field name="name">Şişli</field>
+        </record>
+        <!-- Şişli Mahalleleri -->
+        <record id="mahalle_1_34" model="res.mahalle">
+            <field name="name">19 Mayıs</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_2_34" model="res.mahalle">
+            <field name="name">Bozkurt</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_3_34" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_4_34" model="res.mahalle">
+            <field name="name">Duatepe</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_5_34" model="res.mahalle">
+            <field name="name">Ergenekon</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_6_34" model="res.mahalle">
+            <field name="name">Esentepe</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_7_34" model="res.mahalle">
+            <field name="name">Eskişehir</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_8_34" model="res.mahalle">
+            <field name="name">Feriköy</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_9_34" model="res.mahalle">
+            <field name="name">Fulya</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_10_34" model="res.mahalle">
+            <field name="name">Gülbahar</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_11_34" model="res.mahalle">
+            <field name="name">Halaskargazi</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_12_34" model="res.mahalle">
+            <field name="name">Halide Edip Adıvar</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_13_34" model="res.mahalle">
+            <field name="name">Halil Rıfat Paşa</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_14_34" model="res.mahalle">
+            <field name="name">Harbiye</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_15_34" model="res.mahalle">
+            <field name="name">İnönü</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_16_34" model="res.mahalle">
+            <field name="name">İzzetpaşa</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_17_34" model="res.mahalle">
+            <field name="name">Kaptanpaşa</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_18_34" model="res.mahalle">
+            <field name="name">Kuştepe</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_19_34" model="res.mahalle">
+            <field name="name">Mahmut Şevket Paşa</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_20_34" model="res.mahalle">
+            <field name="name">Mecidiyeköy</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_21_34" model="res.mahalle">
+            <field name="name">Merkez</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_22_34" model="res.mahalle">
+            <field name="name">Meşrutiyet</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_23_34" model="res.mahalle">
+            <field name="name">Paşa</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_24_34" model="res.mahalle">
+            <field name="name">Teşvikiye</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+        <record id="mahalle_25_34" model="res.mahalle">
+            <field name="name">Yayla</field>
+            <field name="ilce_id" ref="ilce_34"/>
+        </record>
+
+
+        <!-- Tuzla İlçesi -->
+        <record id="ilce_35" model="res.ilce">
+            <field name="name">Tuzla</field>
+        </record>
+        <!-- Tuzla Mahalleleri -->
+        <record id="mahalle_1_35" model="res.mahalle">
+            <field name="name">Akfırat</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_2_35" model="res.mahalle">
+            <field name="name">Anadolu</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_3_35" model="res.mahalle">
+            <field name="name">Aydınlı</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_4_35" model="res.mahalle">
+            <field name="name">Aydıntepe</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_5_35" model="res.mahalle">
+            <field name="name">Cami</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_6_35" model="res.mahalle">
+            <field name="name">Evliya Çelebi</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_7_35" model="res.mahalle">
+            <field name="name">Fatih</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_8_35" model="res.mahalle">
+            <field name="name">İçmeler</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_9_35" model="res.mahalle">
+            <field name="name">İstasyon</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_10_35" model="res.mahalle">
+            <field name="name">Mescit</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_11_35" model="res.mahalle">
+            <field name="name">Mimar Sinan</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_12_35" model="res.mahalle">
+            <field name="name">Orhanlı</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_13_35" model="res.mahalle">
+            <field name="name">Orta</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_14_35" model="res.mahalle">
+            <field name="name">Postane</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_15_35" model="res.mahalle">
+            <field name="name">Şifa</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_16_35" model="res.mahalle">
+            <field name="name">Tepeören</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+        <record id="mahalle_17_35" model="res.mahalle">
+            <field name="name">Yayla</field>
+            <field name="ilce_id" ref="ilce_35"/>
+        </record>
+
+
+        <!-- Ümraniye İlçesi -->
+        <record id="ilce_36" model="res.ilce">
+            <field name="name">Ümraniye</field>
+        </record>
+        <!-- Ümraniye Mahalleleri -->
+        <record id="mahalle_1_36" model="res.mahalle">
+            <field name="name">Adem Yavuz</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_2_36" model="res.mahalle">
+            <field name="name">Altınşehir</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_3_36" model="res.mahalle">
+            <field name="name">Armağanevler</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_4_36" model="res.mahalle">
+            <field name="name">Aşağıdudullu</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_5_36" model="res.mahalle">
+            <field name="name">Atakent</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_6_36" model="res.mahalle">
+            <field name="name">Atatürk</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_7_36" model="res.mahalle">
+            <field name="name">Cemil Meriç</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_8_36" model="res.mahalle">
+            <field name="name">Çakmak</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_9_36" model="res.mahalle">
+            <field name="name">Çamlık</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_10_36" model="res.mahalle">
+            <field name="name">Dumlupınar</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_11_36" model="res.mahalle">
+            <field name="name">Elmalıkent</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_12_36" model="res.mahalle">
+            <field name="name">Esenevler</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_13_36" model="res.mahalle">
+            <field name="name">Esenşehir</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_14_36" model="res.mahalle">
+            <field name="name">Fatih Sultan Mehmet</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_15_36" model="res.mahalle">
+            <field name="name">Hekimbaşı</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_16_36" model="res.mahalle">
+            <field name="name">Huzur</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_17_36" model="res.mahalle">
+            <field name="name">Ihlamurkuyu</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_18_36" model="res.mahalle">
+            <field name="name">İnkılap</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_19_36" model="res.mahalle">
+            <field name="name">İstiklal</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_20_36" model="res.mahalle">
+            <field name="name">Kâzım Karabekir</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_21_36" model="res.mahalle">
+            <field name="name">Mehmet Akif</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_22_36" model="res.mahalle">
+            <field name="name">Madenler</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_23_36" model="res.mahalle">
+            <field name="name">Namık Kemal</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_24_36" model="res.mahalle">
+            <field name="name">Necip Fazıl</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_25_36" model="res.mahalle">
+            <field name="name">Parseller</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_26_36" model="res.mahalle">
+            <field name="name">Saray</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_27_36" model="res.mahalle">
+            <field name="name">Site</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_28_36" model="res.mahalle">
+            <field name="name">Şerifali</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_29_36" model="res.mahalle">
+            <field name="name">Tantavi</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_30_36" model="res.mahalle">
+            <field name="name">Tatlısu</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_31_36" model="res.mahalle">
+            <field name="name">Tepeüstü</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_32_36" model="res.mahalle">
+            <field name="name">Topağacı</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_33_36" model="res.mahalle">
+            <field name="name">Yamanevler</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_34_36" model="res.mahalle">
+            <field name="name">Yeni Sanayi</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+        <record id="mahalle_35_36" model="res.mahalle">
+            <field name="name">Yukarıdudullu</field>
+            <field name="ilce_id" ref="ilce_36"/>
+        </record>
+
+         <!-- Üsküdar İlçesi -->
+        <record id="ilce_37" model="res.ilce">
+            <field name="name">Üsküdar</field>
+        </record>
+        <!-- Üsküdar Mahalleleri -->
+        <record id="mahalle_1_37" model="res.mahalle">
+            <field name="name">Acıbadem</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_2_37" model="res.mahalle">
+            <field name="name">Ahmediye</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_3_37" model="res.mahalle">
+            <field name="name">Altunizade</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_4_37" model="res.mahalle">
+            <field name="name">Aziz Mahmud Hüdayi</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_5_37" model="res.mahalle">
+            <field name="name">Bahçelievler</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_6_37" model="res.mahalle">
+            <field name="name">Barbaros</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_7_37" model="res.mahalle">
+            <field name="name">Beylerbeyi</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_8_37" model="res.mahalle">
+            <field name="name">Bulgurlu</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_9_37" model="res.mahalle">
+            <field name="name">Burhaniye</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_10_37" model="res.mahalle">
+            <field name="name">Cumhuriyet</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_11_37" model="res.mahalle">
+            <field name="name">Çengelköy</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_12_37" model="res.mahalle">
+            <field name="name">Ferah</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_13_37" model="res.mahalle">
+            <field name="name">Güzeltepe</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_14_37" model="res.mahalle">
+            <field name="name">İcadiye</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_15_37" model="res.mahalle">
+            <field name="name">Kandilli</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_16_37" model="res.mahalle">
+            <field name="name">Kirazlıtepe</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_17_37" model="res.mahalle">
+            <field name="name">Kısıklı</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_18_37" model="res.mahalle">
+            <field name="name">Kuleli</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_19_37" model="res.mahalle">
+            <field name="name">Kuzguncuk</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_20_37" model="res.mahalle">
+            <field name="name">Küçük Çamlıca</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_21_37" model="res.mahalle">
+            <field name="name">Küçüksu</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_22_37" model="res.mahalle">
+            <field name="name">Küplüce</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_23_37" model="res.mahalle">
+            <field name="name">Mehmet Akif Ersoy</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_24_37" model="res.mahalle">
+            <field name="name">Mimar Sinan</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_25_37" model="res.mahalle">
+            <field name="name">Murat Reis</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_26_37" model="res.mahalle">
+            <field name="name">Salacak</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_27_37" model="res.mahalle">
+            <field name="name">Selami Ali</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_28_37" model="res.mahalle">
+            <field name="name">Selimiye</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_29_37" model="res.mahalle">
+            <field name="name">Sultantepe</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_30_37" model="res.mahalle">
+            <field name="name">Ünalan</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_31_37" model="res.mahalle">
+            <field name="name">Valide-i Atik</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_32_37" model="res.mahalle">
+            <field name="name">Yavuztürk</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+        <record id="mahalle_33_37" model="res.mahalle">
+            <field name="name">Zeynep Kamil</field>
+            <field name="ilce_id" ref="ilce_37"/>
+        </record>
+
+
+
+
+
+         <!-- Zeytinburnu İlçesi -->
+        <record id="ilce_38" model="res.ilce">
+            <field name="name">Zeytinburnu</field>
+        </record>
+        <!-- Zeytinburnu Mahalleleri -->
+        <record id="mahalle_1_38" model="res.mahalle">
+            <field name="name">Beştelsiz</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_2_38" model="res.mahalle">
+            <field name="name">Çırpıcı</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_3_38" model="res.mahalle">
+            <field name="name">Gökalp</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_4_38" model="res.mahalle">
+            <field name="name">Kazlıçeşme</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_5_38" model="res.mahalle">
+            <field name="name">Maltepe</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_6_38" model="res.mahalle">
+            <field name="name">Merkezefendi</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_7_38" model="res.mahalle">
+            <field name="name">Nuripaşa</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_8_38" model="res.mahalle">
+            <field name="name">Seyitnizam</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_9_38" model="res.mahalle">
+            <field name="name">Sümer</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_10_38" model="res.mahalle">
+            <field name="name">Telsiz</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_11_38" model="res.mahalle">
+            <field name="name">Veliefendi</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_12_38" model="res.mahalle">
+            <field name="name">Yenidoğan</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+        <record id="mahalle_13_38" model="res.mahalle">
+            <field name="name">Yeşiltepe</field>
+            <field name="ilce_id" ref="ilce_38"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bas_il,bas.il,model_bas_il,base.group_user,1,1,1,1
+access_bas_ilce,bas.ilce,model_bas_ilce,base.group_user,1,1,1,1
+access_bas_lise,bas.lise,model_bas_lise,base.group_user,1,1,1,1
+access_bas_uni,bas.uni,model_bas_uni,base.group_user,1,1,1,1
+access_bas_fak,bas.fak,model_bas_fak,base.group_user,1,1,1,1
+access_bas_bolum,bas.bolum,model_bas_bolum,base.group_user,1,1,1,1
+access_res_ilce,access_res_ilce,model_res_ilce,,1,1,1,1
+access_res_mahalle,access_res_mahalle,model_res_mahalle,,1,1,1,1

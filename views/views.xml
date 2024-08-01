@@ -1,0 +1,62 @@
+<odoo>
+
+    <record id="view_partner_form_tckimlikno" model="ir.ui.view">
+        <field name="name">res.partner.form.tckimlikno</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="vat" position="after">
+                <field name="tckimlikno"/>
+                <field name="il_id"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_users_form_inherit" model="ir.ui.view">
+
+        <field name="name">res.users.form.inherit</field>
+        <field name="model">res.users</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <label for="login" position="before">
+                <field name="tckimlikno" string="tckno" />
+            </label>
+        </field>
+    </record>
+
+    <record id="hr_applicant_form_inherit" model="ir.ui.view">
+
+        <field name="name">hr.applicant.form.inherit</field>
+        <field name="model">hr.applicant</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="hr_recruitment.hr_applicant_view_form"/>
+        <field name="arch" type="xml">
+            <field name="partner_mobile" position="after">
+                <field name="tckimlikno" string="tckno" />
+                <field name="partner_il"/>
+                <field name="partner_ilce"/>
+                <field name="partner_lise"/>
+                <field name="partner_adres"/>
+                <field name="partner_birth_date"/>
+                <field name="partner_birth_place"/>
+                <field name="partner_school_email"/>
+                <field name="partner_twitter_account"/>
+                <field name="partner_facebook_account"/>
+                <field name="partner_instagram_account"/>
+                <field name="partner_linkedin_account"/>
+                <field name="partner_uni"/>
+                <field name="partner_fak"/>
+                <field name="partner_bolum"/>
+                <field name="partner_nationality"/>
+                <field name="partner_tc_kimlik_no"/>
+                <field name="partner_gender"/>
+            </field>
+        </field>
+    </record>
+
+
+
+
+
+</odoo>

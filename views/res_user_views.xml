@@ -1,0 +1,49 @@
+<odoo>
+
+    <record id="view_users_form_inherit_bas" model="ir.ui.view">
+        <field name="name">res.users.form.inherit.bas</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_simple_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='mobile']" position="after">
+                <field name="il_id" string="İl"/>
+                <field name="ilce_id" string="İlçe"/>
+                <field name="tc_kimlik_no" string="Tckno"/>
+
+
+
+
+
+
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Tree view for Users -->
+    <record id="view_users_tree" model="ir.ui.view">
+        <field name="name">res.users.tree</field>
+        <field name="model">res.users</field>
+        <field name="arch" type="xml">
+            <tree string="Kullanıcılar">
+                <field name="name"/>
+                <field name="login"/>
+                <field name="email"/>
+                <field name="phone"/>
+                <field name="il_id" string="İl"/>
+                <field name="ilce_id" string="İlçe"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <!-- Action for Users -->
+    <record id="action_users" model="ir.actions.act_window">
+        <field name="name">Kullanıcılar</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_users_tree"/>
+    </record>
+
+    <!-- Menu item for Users -->
+    <menuitem id="menu_bas_users" name="Kullanıcılar" parent="menu_bas_root" action="action_users" sequence="5"/>
+</odoo>
